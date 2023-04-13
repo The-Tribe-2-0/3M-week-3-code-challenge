@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+  <head>
+    <title>Flatdango - Purchase Movie Tickets</title>
     <link href="index.css" rel="stylesheet">
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div id="container">
+      <header>
         <h1>Flatdango</h1>
-    </header>
-    <main>
-        <div id="movie-container">
-
+        <nav>
+          <ul id="films">
+            <!-- Film menu will be populated by JS -->
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div id="film-details">
+          <h2 id="film-title">Film Title</h2>
+          <div id="film-info">
+            <img id="film-poster" src="#" alt="Film Poster">
+            <ul>
+              <li><strong>Runtime:</strong> <span id="film-runtime">0 minutes</span></li>
+              <li><strong>Showtime:</strong> <span id="film-showtime">00:00</span></li>
+              <li><strong>Available Tickets:</strong> <span id="available-tickets">0</span></li>
+            </ul>
+          </div>
+          <button id="buy-ticket-btn" disabled>Buy Ticket</button>
         </div>
-        <ul id="films">
-
-        </ul>
-    </main>
-</body>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

@@ -1,0 +1,95 @@
+/* Set global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Style the movie details section */
+  .movie-details {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .movie-poster {
+    flex: 0 0 30%;
+    margin-right: 20px;
+  }
+  
+  .movie-poster img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie-info {
+    flex: 1;
+  }
+  
+  .movie-info h2 {
+    margin-top: 0;
+  }
+  
+  .movie-info p {
+    margin-top: 0;
+  }
+  
+  .buy-ticket {
+    margin-top: 20px;
+  }
+  
+  /* Style the movie menu */
+  .movie-menu {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .movie-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 0 0 30%;
+  }
+  
+  .movie-menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-menu li.active {
+    font-weight: bold;
+  }
+  
+  /* Style the ticket count */
+  .ticket-count {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
