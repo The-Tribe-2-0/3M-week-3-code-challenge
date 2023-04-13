@@ -15,11 +15,8 @@ theater.
 ********
 ## SetUp Instruction
 ### Requirements
-* [Lang](lang Url)
-* [Framework](Framework URL)
-* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
-* [Testing Platform](Platform URL)
-
+* Visual Studio Code
+* JSON server
 
 ### Getting Files
 * Fork the repo
@@ -52,6 +49,7 @@ Or you can access the web application directly via this [LINK.](link.com/)
 1. HTML
 2. CSS
 3. JavaScript
+4. JSON server
 *****
 ## Contact Information
 * Email : melchizedek.maranga@gmail.com
