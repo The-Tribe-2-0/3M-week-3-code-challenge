@@ -8,8 +8,8 @@ Flatdango is an app that allows a user to purchase movie tickets from the
 theater.
 
 ## SCREENSHOTS
-- link 1
-- link 2
+- https://user-images.githubusercontent.com/50429540/231749284-28c0b6a9-6997-40ec-88ea-075277e8c324.png
+
 
 
 ********
